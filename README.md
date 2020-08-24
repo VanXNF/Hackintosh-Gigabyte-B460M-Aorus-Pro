@@ -2,7 +2,7 @@
 
 [README 中文（当前）](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro#readme)
 
-[README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/README_EN.md)
+[README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
 ## 配置
 
