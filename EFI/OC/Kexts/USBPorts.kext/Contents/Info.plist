@@ -140,6 +140,17 @@
 						CwAAAA==
 						</data>
 					</dict>
+					<key>HS12</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>name</key>
+						<string>HS12</string>
+						<key>port</key>
+						<data>
+						DAAAAA==
+						</data>
+					</dict>
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
