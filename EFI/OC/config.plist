@@ -771,7 +771,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -789,7 +790,7 @@
 			<key>PollAppleHotKeys</key>
 			<true/>
 			<key>ShowPicker</key>
-			<false/>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>5000</integer>
 			<key>Timeout</key>
@@ -858,7 +859,7 @@
 			<key>SecureBootModel</key>
 			<string>Default</string>
 			<key>ScanPolicy</key>
-			<integer>2162947</integer>
+			<integer>0</integer>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
