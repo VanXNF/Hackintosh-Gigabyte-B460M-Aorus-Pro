@@ -36,16 +36,16 @@
 
 ## 主要驱动
 
-|            驱动             | 版本  |
-| :-------------------------: | :---: |
-|          Lilu.kext          | 1.4.7 |
-|       VirtualSMC.kext       | 1.1.6 |
-|     WhateverGreen.kext      | 1.4.2 |
-|       IntelMausi.kext       | 1.0.3 |
-| IntelBluetoothFirmware.kext | 1.1.2 |
-|         itlwmx.kext         | 1.0.0 |
-|        AppleALC.kext        | 1.5.2 |
-|           NVMeFix           | 1.0.3 |
+|               驱动                |        版本        |
+| :-------------------------------: | :----------------: |
+|             Lilu.kext             |       1.4.7        |
+|          VirtualSMC.kext          |       1.1.6        |
+|        WhateverGreen.kext         |       1.4.2        |
+|          IntelMausi.kext          |       1.0.3        |
+|    IntelBluetoothFirmware.kext    |       1.1.2        |
+| ~~itlwmx.kext~~ Airportitlwm.kext | v1.0 Beta Catalina |
+|           AppleALC.kext           |       1.5.2        |
+|              NVMeFix              |       1.0.3        |
 
 注1：~~声卡版本为自编译1.5.2，针对此主板进行了端口定制，前后麦克风和音频输出均正常工作，同主板建议注入 **id 为 50**，配置文件已提交 AppleALC 仓库，预计正式版 1.5.2 直接支持，同时修复了 400 芯片组 **0xA3F0** 设备无法直接驱动的问题（看到有人已经提交了PR，预计 1.5.2 会支持），使用此版本**无需再使用** FakePCIID 进行仿冒，可直接驱动。~~**已更换为官方 1.5.2**。
 

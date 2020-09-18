@@ -35,16 +35,16 @@
 
 ## Kexts
 
-|            Kext             | Model |
-| :-------------------------: | :---: |
-|          Lilu.kext          | 1.4.7 |
-|       VirtualSMC.kext       | 1.1.6 |
-|     WhateverGreen.kext      | 1.4.2 |
-|       IntelMausi.kext       | 1.0.3 |
-| IntelBluetoothFirmware.kext | 1.1.2 |
-|         itlwmx.kext         | 1.0.0 |
-|        AppleALC.kext        | 1.5.2 |
-|           NVMeFix           | 1.0.3 |
+|               Kext                |       Model        |
+| :-------------------------------: | :----------------: |
+|             Lilu.kext             |       1.4.7        |
+|          VirtualSMC.kext          |       1.1.6        |
+|        WhateverGreen.kext         |       1.4.2        |
+|          IntelMausi.kext          |       1.0.3        |
+|    IntelBluetoothFirmware.kext    |       1.1.2        |
+| ~~itlwmx.kext~~ Airportitlwm.kext | v1.0 Beta Catalina |
+|           AppleALC.kext           |       1.5.2        |
+|              NVMeFix              |       1.0.3        |
 
 **Note 1:** ~~the AppleALC version is self-compiled 1.5.2, the layout-id is customized for this motherboard, the front and rear microphone and audio output work correctly, the same motherboard is recommended to inject **layout-id 50**, the configuration file has been submitted to the AppleALC's repo, and is expected to be directly supported by the official version 1.5.2. At the same time, it has fixed the problem that the device of the 400 chipset **0xA3F0 driver** cannot be directly driven (see that someone has submitted the PR. 1.5.2 is expected to be supported), **use this version and no need for FakePCIID**.~~ Using Official 1.5.2 now.
 
