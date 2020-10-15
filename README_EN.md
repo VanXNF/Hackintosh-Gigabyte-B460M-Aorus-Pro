@@ -71,10 +71,10 @@ README English(Current)
 
 ## OpenCore/OS
 
-|   Item   |          Version          |
-| :------: | :-----------------------: |
-| OpenCore |           0.6.1           |
-|  macOS   | Catalina 10.15.6(19G2021) |
+|   Item   |        Version         |
+| :------: | :--------------------: |
+| OpenCore |         0.6.2          |
+|  macOS   | Catalina 10.15.7(19H2) |
 
 ## README Before Install
 
