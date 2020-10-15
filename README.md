@@ -1,8 +1,10 @@
 # Hackintosh Gigabyte B460M Aorus Pro
 
-[README 中文（当前）](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro#readme)
+README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
+
+> 2020年10月15日更新：升级 OC 版本至 0.6.2，kext 常规更新。
 
 ## 配置
 
@@ -36,18 +38,18 @@
 
 ## 主要驱动
 
-|               驱动                |        版本        |
-| :-------------------------------: | :----------------: |
-|             Lilu.kext             |       1.4.7        |
-|          VirtualSMC.kext          |       1.1.6        |
-|        WhateverGreen.kext         |       1.4.2        |
-|          IntelMausi.kext          |       1.0.3        |
-|    IntelBluetoothFirmware.kext    |       1.1.2        |
-| ~~itlwmx.kext~~ Airportitlwm.kext | v1.0 Beta Catalina |
-|           AppleALC.kext           |       1.5.2        |
-|              NVMeFix              |       1.0.3        |
+|            驱动             |        版本        |
+| :-------------------------: | :----------------: |
+|          Lilu.kext          |       1.4.8        |
+|       VirtualSMC.kext       |       1.1.7        |
+|     WhateverGreen.kext      |       1.4.3        |
+|       IntelMausi.kext       |       1.0.3        |
+| IntelBluetoothFirmware.kext |       1.1.2        |
+|      Airportitlwm.kext      | v1.0 Beta Catalina |
+|        AppleALC.kext        |       1.5.3        |
+|           NVMeFix           |       1.0.4        |
 
-注1：~~声卡版本为自编译1.5.2，针对此主板进行了端口定制，前后麦克风和音频输出均正常工作，同主板建议注入 **id 为 50**，配置文件已提交 AppleALC 仓库，预计正式版 1.5.2 直接支持，同时修复了 400 芯片组 **0xA3F0** 设备无法直接驱动的问题（看到有人已经提交了PR，预计 1.5.2 会支持），使用此版本**无需再使用** FakePCIID 进行仿冒，可直接驱动。~~**已更换为官方 1.5.2**。
+注1：~~声卡版本为自编译1.5.2，针对此主板进行了端口定制，前后麦克风和音频输出均正常工作，同主板建议注入 **id 为 50**，配置文件已提交 AppleALC 仓库，预计正式版 1.5.2 直接支持，同时修复了 400 芯片组 **0xA3F0** 设备无法直接驱动的问题（看到有人已经提交了PR，预计 1.5.2 会支持），使用此版本**无需再使用** FakePCIID 进行仿冒，可直接驱动。~~**已更换为官方 1.5.3**。
 
 注2：AX200 设备相关驱动我已经添加了，**如不需要请自行移除**。
 
@@ -70,10 +72,10 @@
 
 ## 引导及系统版本
 
-|   项目   |           版本            |
-| :------: | :-----------------------: |
-| OpenCore |           0.6.1           |
-|  macOS   | Catalina 10.15.6(19G2021) |
+|   项目   |          版本          |
+| :------: | :--------------------: |
+| OpenCore |         0.6.2          |
+|  macOS   | Catalina 10.15.7(19H2) |
 
 ## 安装须知
 
