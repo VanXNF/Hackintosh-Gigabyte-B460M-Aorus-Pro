@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2020年11月15日更新：升级 OC 版本至 0.6.3，kext 常规更新，支持在线安装升级至 Big Sur，更新 WIFI kext 为 Big Sur 版。集显 ID 更换为 00009B3E，理论上集显可输出画面（DP 接口）。
+>
 > 2020年10月15日更新：升级 OC 版本至 0.6.2，kext 常规更新。
 
 ## 配置
@@ -38,18 +40,18 @@ README 中文（当前）
 
 ## 主要驱动
 
-|            驱动             |        版本        |
-| :-------------------------: | :----------------: |
-|          Lilu.kext          |       1.4.8        |
-|       VirtualSMC.kext       |       1.1.7        |
-|     WhateverGreen.kext      |       1.4.3        |
-|       IntelMausi.kext       |       1.0.3        |
-| IntelBluetoothFirmware.kext |       1.1.2        |
-|      Airportitlwm.kext      | v1.0 Beta Catalina |
-|        AppleALC.kext        |       1.5.3        |
-|           NVMeFix           |       1.0.4        |
+|            驱动             |       版本        |
+| :-------------------------: | :---------------: |
+|          Lilu.kext          |       1.4.9       |
+|       VirtualSMC.kext       |       1.1.8       |
+|     WhateverGreen.kext      |       1.4.4       |
+|       IntelMausi.kext       |       1.0.4       |
+| IntelBluetoothFirmware.kext |       1.1.2       |
+|      Airportitlwm.kext      | v1.0 Beta Big Sur |
+|        AppleALC.kext        |       1.5.4       |
+|           NVMeFix           |       1.0.4       |
 
-注1：~~声卡版本为自编译1.5.2，针对此主板进行了端口定制，前后麦克风和音频输出均正常工作，同主板建议注入 **id 为 50**，配置文件已提交 AppleALC 仓库，预计正式版 1.5.2 直接支持，同时修复了 400 芯片组 **0xA3F0** 设备无法直接驱动的问题（看到有人已经提交了PR，预计 1.5.2 会支持），使用此版本**无需再使用** FakePCIID 进行仿冒，可直接驱动。~~**已更换为官方 1.5.3**。
+注1：~~声卡版本为自编译1.5.2，针对此主板进行了端口定制，前后麦克风和音频输出均正常工作，同主板建议注入 **id 为 50**，配置文件已提交 AppleALC 仓库，预计正式版 1.5.2 直接支持，同时修复了 400 芯片组 **0xA3F0** 设备无法直接驱动的问题（看到有人已经提交了PR，预计 1.5.2 会支持），使用此版本**无需再使用** FakePCIID 进行仿冒，可直接驱动。~~**已更换为官方版本。
 
 注2：AX200 设备相关驱动我已经添加了，**如不需要请自行移除**。
 
@@ -72,10 +74,10 @@ README 中文（当前）
 
 ## 引导及系统版本
 
-|   项目   |          版本          |
-| :------: | :--------------------: |
-| OpenCore |         0.6.2          |
-|  macOS   | Catalina 10.15.7(19H2) |
+|   项目   |         版本          |
+| :------: | :-------------------: |
+| OpenCore |         0.6.3         |
+|  macOS   | Big Sur 11.0.1(20B29) |
 
 ## 安装须知
 

@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2020/11/15 update：update OC 0.6.3 and kexts, support update to Big Sur in current system now. change WIFI kext to Big Sur version, and AAPL,ig-platform-id now set 00009B3E as default, so you can use UHD630 to drive screens (DP).
+>
 > 2020/10/15 update: OC 0.6.2 and all kexts.
 
 ## Hardware
@@ -37,18 +39,18 @@ README English(Current)
 
 ## Kexts
 
-|            Kext             |       Model        |
-| :-------------------------: | :----------------: |
-|          Lilu.kext          |       1.4.8        |
-|       VirtualSMC.kext       |       1.1.7        |
-|     WhateverGreen.kext      |       1.4.3        |
-|       IntelMausi.kext       |       1.0.3        |
-| IntelBluetoothFirmware.kext |       1.1.2        |
-|      Airportitlwm.kext      | v1.0 Beta Catalina |
-|        AppleALC.kext        |       1.5.3        |
-|           NVMeFix           |       1.0.4        |
+|            驱动             |       版本        |
+| :-------------------------: | :---------------: |
+|          Lilu.kext          |       1.4.9       |
+|       VirtualSMC.kext       |       1.1.8       |
+|     WhateverGreen.kext      |       1.4.4       |
+|       IntelMausi.kext       |       1.0.4       |
+| IntelBluetoothFirmware.kext |       1.1.2       |
+|      Airportitlwm.kext      | v1.0 Beta Big Sur |
+|        AppleALC.kext        |       1.5.4       |
+|           NVMeFix           |       1.0.4       |
 
-**Note 1:** ~~the AppleALC version is self-compiled 1.5.2, the layout-id is customized for this motherboard, the front and rear microphone and audio output work correctly, the same motherboard is recommended to inject **layout-id 50**, the configuration file has been submitted to the AppleALC's repo, and is expected to be directly supported by the official version 1.5.2. At the same time, it has fixed the problem that the device of the 400 chipset **0xA3F0 driver** cannot be directly driven (see that someone has submitted the PR. 1.5.2 is expected to be supported), **use this version and no need for FakePCIID**.~~ Using Official 1.5.3 now.
+**Note 1:** ~~the AppleALC version is self-compiled 1.5.2, the layout-id is customized for this motherboard, the front and rear microphone and audio output work correctly, the same motherboard is recommended to inject **layout-id 50**, the configuration file has been submitted to the AppleALC's repo, and is expected to be directly supported by the official version 1.5.2. At the same time, it has fixed the problem that the device of the 400 chipset **0xA3F0 driver** cannot be directly driven (see that someone has submitted the PR. 1.5.2 is expected to be supported), **use this version and no need for FakePCIID**.~~ Using Official version now.
 
 **Note 2:** I add the kexts for AX200 by default, **remove your own kexts if necessary**.
 
@@ -71,10 +73,10 @@ README English(Current)
 
 ## OpenCore/OS
 
-|   Item   |        Version         |
-| :------: | :--------------------: |
-| OpenCore |         0.6.2          |
-|  macOS   | Catalina 10.15.7(19H2) |
+|   Item   |        Version        |
+| :------: | :-------------------: |
+| OpenCore |         0.6.3         |
+|  macOS   | Big Sur 11.0.1(20B29) |
 
 ## README Before Install
 
