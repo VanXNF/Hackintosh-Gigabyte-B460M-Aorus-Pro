@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2021年3月17日更新：升级 OC 版本至 0.6.7，kext 常规更新。
+>
 > 2021年1月15日更新：升级 OC 版本至 0.6.5，kext 常规更新。
 >
 > 2020年11月15日更新：升级 OC 版本至 0.6.3，kext 常规更新，支持在线安装升级至 Big Sur，更新 WIFI kext 为 Big Sur 版。集显 ID 更换为 00009B3E，理论上集显可输出画面（DP 接口）。
@@ -44,13 +46,13 @@ README 中文（当前）
 
 |            驱动             |     版本      |
 | :-------------------------: | :-----------: |
-|          Lilu.kext          |     1.5.0     |
-|       VirtualSMC.kext       |     1.1.9     |
-|     WhateverGreen.kext      |     1.4.6     |
+|          Lilu.kext          |     1.5.1     |
+|       VirtualSMC.kext       |     1.2.1     |
+|     WhateverGreen.kext      |     1.4.8     |
 |       IntelMausi.kext       |     1.0.5     |
 | IntelBluetoothFirmware.kext |     1.1.2     |
 |      Airportitlwm.kext      | 1.2.0 Big Sur |
-|        AppleALC.kext        |     1.5.6     |
+|        AppleALC.kext        |     1.5.8     |
 |           NVMeFix           |     1.0.5     |
 
 注1：~~声卡版本为自编译1.5.2，针对此主板进行了端口定制，前后麦克风和音频输出均正常工作，同主板建议注入 **id 为 50**，配置文件已提交 AppleALC 仓库，预计正式版 1.5.2 直接支持，同时修复了 400 芯片组 **0xA3F0** 设备无法直接驱动的问题（看到有人已经提交了PR，预计 1.5.2 会支持），使用此版本**无需再使用** FakePCIID 进行仿冒，可直接驱动。~~**已更换为官方版本。
@@ -78,8 +80,8 @@ README 中文（当前）
 
 |   项目   |         版本          |
 | :------: | :-------------------: |
-| OpenCore |         0.6.5         |
-|  macOS   | Big Sur 11.0.1(20C69) |
+| OpenCore |         0.6.7         |
+|  macOS   | Big Sur 11.0.1(20D91) |
 
 ## 安装须知
 

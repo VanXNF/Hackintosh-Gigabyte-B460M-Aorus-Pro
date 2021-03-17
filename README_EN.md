@@ -4,9 +4,11 @@
 
 README English(Current)
 
-> 2021/1/15 update: OC 0.6.5 and all kexts
+> 2021/3/17 update: OC 0.6.7 and all kexts.
 >
-> 2020/11/15 update: OC 0.6.3 and all kexts, support update to Big Sur in current system now. change WIFI kext to Big Sur version, and AAPL,ig-platform-id now set 00009B3E as default, so you can use UHD630 to drive screens (DP).
+> 2021/1/15 update: OC 0.6.5 and all kexts.
+>
+> 2020/11/15 update: OC 0.6.3 and all kexts, support update to Big Sur in current system. now. change WIFI kext to Big Sur version, and AAPL,ig-platform-id now set 00009B3E as default, so you can use UHD630 to drive screens (DP).
 >
 > 2020/10/15 update: OC 0.6.2 and all kexts.
 
@@ -43,13 +45,13 @@ README English(Current)
 
 |            驱动             |     版本      |
 | :-------------------------: | :-----------: |
-|          Lilu.kext          |     1.5.0     |
-|       VirtualSMC.kext       |     1.1.9     |
-|     WhateverGreen.kext      |     1.4.6     |
+|          Lilu.kext          |     1.5.1     |
+|       VirtualSMC.kext       |     1.2.1     |
+|     WhateverGreen.kext      |     1.4.8     |
 |       IntelMausi.kext       |     1.0.5     |
 | IntelBluetoothFirmware.kext |     1.1.2     |
 |      Airportitlwm.kext      | 1.2.0 Big Sur |
-|        AppleALC.kext        |     1.5.6     |
+|        AppleALC.kext        |     1.5.8     |
 |           NVMeFix           |     1.0.5     |
 
 **Note 1:** ~~the AppleALC version is self-compiled 1.5.2, the layout-id is customized for this motherboard, the front and rear microphone and audio output work correctly, the same motherboard is recommended to inject **layout-id 50**, the configuration file has been submitted to the AppleALC's repo, and is expected to be directly supported by the official version 1.5.2. At the same time, it has fixed the problem that the device of the 400 chipset **0xA3F0 driver** cannot be directly driven (see that someone has submitted the PR. 1.5.2 is expected to be supported), **use this version and no need for FakePCIID**.~~ Using Official version now.
@@ -77,8 +79,8 @@ README English(Current)
 
 |   Item   |        Version        |
 | :------: | :-------------------: |
-| OpenCore |         0.6.5         |
-|  macOS   | Big Sur 11.0.1(20C69) |
+| OpenCore |         0.6.7         |
+|  macOS   | Big Sur 11.0.1(20D91) |
 
 ## README Before Install
 
