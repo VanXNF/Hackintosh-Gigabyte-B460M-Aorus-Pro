@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2021/7/16 update: OC 0.7.1 and all kexts. Update I5-10500, add RX460 4G, fix UHD 630 FB, add case information.
+>
 > 2021/4/11 update: OC 0.6.8 and all kexts. AMD RX580 has been removed, UHD630 is used to drive a display (support DP and HDMI). 
 >
 > 2021/3/17 update: OC 0.6.7 and all kexts.
@@ -16,15 +18,16 @@ README English(Current)
 
 ## Hardware
 
-|    Device     |              Model              |
-| :-----------: | :-----------------------------: |
-|      CPU      |            I5-10400             |
-|  Motherboard  |    Gigabyte B460M Aorus Pro     |
-|     GPU0      |     Intel UHD Graphics 630      |
-|   ~~GPU1~~    | ~~AMD Radeon RX 580 4G 2304sp~~ |
-|     Audio     |        Realtek ALCS1200A        |
-| Ethernet Card |          Intel I219V12          |
-| WiFI/BT Card  |          Wi-Fi 6 AX200          |
+|    Device     |          Model           |
+| :-----------: | :----------------------: |
+|      CPU      |         I5-10500         |
+|  Motherboard  | Gigabyte B460M Aorus Pro |
+|     GPU0      |  Intel UHD Graphics 630  |
+|     GPU1      |   AMD Radeon RX 460 4G   |
+|     Audio     |    Realtek ALCS1200A     |
+| Ethernet Card |      Intel I219V12       |
+| WiFI/BT Card  |      Wi-Fi 6 AX200       |
+|     Case      |     先马趣造 黑色版      |
 
 ## What works
 
@@ -38,40 +41,39 @@ README English(Current)
 | Sleep/Wake    | Work.                                      |
 | USB Mapping   | Work.                                      |
 
+**Note 1:** you should map your own USB ports if my mapping can not work properly.
+
 ## Known issues
 
 1. It is known that the 400 series chipset of this motherboard cannot be directly driven normally. It needs to be used with **XHCI-unsupported.kext** to use USB. This EFI has been added the kext. If there is a better solution, please let me know, thank you.
-2. ~~Check that the output of the motherboard's DP interface works. However, I use the UHD630 only for hardware acceleration, so I injected AAPL,ig-platform-id with 0300C89B. it is suggested to change the id to 07009B3E who only have UHD630. And please debug the HDMI interface yourself. I have debugged for a long time, but I have not debugged the HDMI interface successfully. At present, the experiment knows that the index zero is the DP interface, and the Bus-ID is set to 4 to output 4k@60Hz. If you debug all interfaces successfully, please let me know. Thank you.~~ UHD630 is used to drive displays (support DP and HDMI).
 
 ## Kexts
 
 |            Kext             |    Version    |
 | :-------------------------: | :-----------: |
-|          Lilu.kext          |     1.5.2     |
-|       VirtualSMC.kext       |     1.2.2     |
-|     WhateverGreen.kext      |     1.4.9     |
-|       IntelMausi.kext       |     1.0.5     |
-| IntelBluetoothFirmware.kext |     1.1.2     |
-|      Airportitlwm.kext      | 1.2.0 Big Sur |
-|        AppleALC.kext        |     1.5.9     |
-|           NVMeFix           |     1.0.6     |
+|          Lilu.kext          |     1.5.4     |
+|       VirtualSMC.kext       |     1.2.5     |
+|     WhateverGreen.kext      |     1.5.1     |
+|       IntelMausi.kext       |     1.0.7     |
+| IntelBluetoothFirmware.kext |     1.1.3     |
+|      Airportitlwm.kext      | 1.3.0 Big Sur |
+|        AppleALC.kext        |     1.6.2     |
+|           NVMeFix           |     1.0.9     |
 
-**Note 1:** ~~the AppleALC version is self-compiled 1.5.2, the layout-id is customized for this motherboard, the front and rear microphone and audio output work correctly, the same motherboard is recommended to inject **layout-id 50**, the configuration file has been submitted to the AppleALC's repo, and is expected to be directly supported by the official version 1.5.2. At the same time, it has fixed the problem that the device of the 400 chipset **0xA3F0 driver** cannot be directly driven (see that someone has submitted the PR. 1.5.2 is expected to be supported), **use this version and no need for FakePCIID**.~~ Using Official version now.
-
-**Note 2:** I add the kexts for AX200 by default, **remove your own kexts if necessary**.
+**Note 1:** I add the kexts for AX200 by default, **remove your own kexts if necessary**.
 
 ## BIOS setting
 
-|       Disable        |                Enable                 |
-| :------------------: | :-----------------------------------: |
-|      Fast Boot       |           Above 4G decoding           |
-|     Secure Boot      |            Hyper-Threading            |
-|   Serial/COM Port    |          EHCI/XHCI Hand-off           |
-|         VT-d         |       OS type: Windows 10 WHQL        |
-|         CSM          | DVMT Pre-Allocated(iGPU Memory): 64MB |
-| Intel Platform Trust |            SATA Mode: AHCI            |
-|       CFG Lock       |                                       |
-|      Intel SGX       |                                       |
+|       Disable        |                 Enable                 |
+| :------------------: | :------------------------------------: |
+|      Fast Boot       |           Above 4G decoding            |
+|     Secure Boot      |            Hyper-Threading             |
+|   Serial/COM Port    |           EHCI/XHCI Hand-off           |
+|         VT-d         |        OS type: Windows 10 WHQL        |
+|         CSM          | DVMT Pre-Allocated(iGPU Memory): 128MB |
+| Intel Platform Trust |            SATA Mode: AHCI             |
+|       CFG Lock       |                                        |
+|      Intel SGX       |                                        |
 
 **Note 1:** The BIOS version is F3, and there is no CFG Lock option in Setting, **So you should select the CFG Lock.efi in OpenCore Picker menu before you try to install the macOS.**
 
@@ -79,10 +81,10 @@ README English(Current)
 
 ## OpenCore/OS
 
-|   Item   |        Version        |
-| :------: | :-------------------: |
-| OpenCore |         0.6.8         |
-|  macOS   | Big Sur 11.0.1(20D91) |
+|   Item   |       Version        |
+| :------: | :------------------: |
+| OpenCore |        0.7.1         |
+|  macOS   | Big Sur 11.4 (20F71) |
 
 ## README Before Install
 

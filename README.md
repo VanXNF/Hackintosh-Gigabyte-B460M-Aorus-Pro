@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2021年7月16日更新：升级 OC 版本至 0.7.1，kext 常规更新。硬件更换更新 CPU 为 10500，增加独立显卡 RX460，修复 UHD630 核显通道号，添加机箱信息。
+>
 > 2021年4月11日更新：升级 OC 版本至 0.6.8，kext 常规更新。移除独立显卡 RX580，改为核显输出，修复核显 HDMI 接口输出，现支持核显 DP、HDMI 双屏输出。
 >
 > 2021年3月17日更新：升级 OC 版本至 0.6.7，kext 常规更新。
@@ -16,63 +18,63 @@ README 中文（当前）
 
 ## 配置
 
-|   设备   |              型号               |
-| :------: | :-----------------------------: |
-|   CPU    |            I5-10400             |
-|   主板   |    Gigabyte B460M Aorus Pro     |
-| 集成显卡 |     Intel UHD Graphics 630      |
-| 独立显卡 | ~~AMD Radeon RX 580 4G 2304sp~~ |
-|   声卡   |        Realtek ALCS1200A        |
-| 有线网卡 |          Intel I219V12          |
-| 无线网卡 |          Wi-Fi 6 AX200          |
-|   蓝牙   |       Wi-Fi 6 AX200 自带        |
+|   设备   |           型号           |
+| :------: | :----------------------: |
+|   CPU    |         I5-10500         |
+|   主板   | Gigabyte B460M Aorus Pro |
+| 集成显卡 |  Intel UHD Graphics 630  |
+| 独立显卡 |   AMD Radeon RX 460 4G   |
+|   声卡   |    Realtek ALCS1200A     |
+| 有线网卡 |      Intel I219V12       |
+| 无线网卡 |      Wi-Fi 6 AX200       |
+|   蓝牙   |    Wi-Fi 6 AX200 自带    |
+|   机箱   |     先马趣造 黑色版      |
 
 ## 功能
 
-| 功能     | 完成度                                    |
-| -------- | ----------------------------------------- |
-| CPU 变频 | 正常                                      |
-| 核显     | DP及HDMI输出正常，硬件加速正常。          |
-| 声卡     | 直接驱动，且使用 id 为 50，完美适配本主板 |
-| 网卡     | 正常                                      |
-| 蓝牙     | 正常                                      |
-| 睡眠     | 正常                                      |
-| USB      | 已定制，正常                              |
+| 功能     | 完成度                           |
+| -------- | -------------------------------- |
+| CPU 变频 | 正常                             |
+| 核显     | DP及HDMI输出正常，硬件加速正常。 |
+| 声卡     | 正常，使用 layout-id 50          |
+| 网卡     | 正常                             |
+| 蓝牙     | 正常                             |
+| 睡眠     | 正常                             |
+| USB      | 正常                             |
+
+注：USB 端口我屏蔽了后置 USB3 端口的 USB2 支持，加入了机箱前置的 USB3 端口，如有需要请自行定制 USB。
 
 ## 已知问题
 
 1. 已知此主板 400 系芯片组，USB 无法直接正常驱动，需要搭配 **XHCI-unsupported.kext** 使用方可正常，本 EFI 已经添加，如有更好方案请告知我，谢谢。
-2. ~~核显 DP 接口输出正常，当然我日常使用独显 DP 接口，仅将核显用于硬件加速，注入的 AAPL,ig-platform-id 为 0300C89B，单核显用户建议改为 07009B3E 请自行调试，我调试了很久也没有调试成功 HDMI 接口，目前实验知索引第一个为 DP 接口，总线 ID 设为 4 可以 4k@60Hz 输出，如有成功调试所有接口的希望能告知我，谢谢。~~ **现支持核显 DP、HDMI 双屏同时输出，支持热拔插屏幕**。
 
 ## 主要驱动
 
 |            驱动             |     版本      |
 | :-------------------------: | :-----------: |
-|          Lilu.kext          |     1.5.2     |
-|       VirtualSMC.kext       |     1.2.2     |
-|     WhateverGreen.kext      |     1.4.9     |
-|       IntelMausi.kext       |     1.0.5     |
-| IntelBluetoothFirmware.kext |     1.1.2     |
-|      Airportitlwm.kext      | 1.2.0 Big Sur |
-|        AppleALC.kext        |     1.5.9     |
-|           NVMeFix           |     1.0.6     |
+|          Lilu.kext          |     1.5.4     |
+|       VirtualSMC.kext       |     1.2.5     |
+|     WhateverGreen.kext      |     1.5.1     |
+|       IntelMausi.kext       |     1.0.7     |
+| IntelBluetoothFirmware.kext |     1.1.3     |
+|      Airportitlwm.kext      | 1.3.0 Big Sur |
+|        AppleALC.kext        |     1.6.2     |
+|           NVMeFix           |     1.0.9     |
 
-注1：~~声卡版本为自编译1.5.2，针对此主板进行了端口定制，前后麦克风和音频输出均正常工作，同主板建议注入 **id 为 50**，配置文件已提交 AppleALC 仓库，预计正式版 1.5.2 直接支持，同时修复了 400 芯片组 **0xA3F0** 设备无法直接驱动的问题（看到有人已经提交了PR，预计 1.5.2 会支持），使用此版本**无需再使用** FakePCIID 进行仿冒，可直接驱动。~~**已更换为官方版本。
-
-注2：AX200 设备相关驱动我已经添加了，**如不需要请自行移除**。
+注1：AX200 设备相关驱动我已经添加了，**如不需要请自行移除**。
 
 ## BIOS 设置
 
-|         关闭         |                 开启                  |
-| :------------------: | :-----------------------------------: |
-|      Fast Boot       |           Above 4G decoding           |
-|     Secure Boot      |            Hyper-Threading            |
-|   Serial/COM Port    |          EHCI/XHCI Hand-off           |
-|         VT-d         |       OS type: Windows 10 WHQL        |
-|         CSM          | DVMT Pre-Allocated(iGPU Memory): 64MB |
-| Intel Platform Trust |            SATA Mode: AHCI            |
-|       CFG Lock       |                                       |
-|      Intel SGX       |                                       |
+|         关闭         |                  开启                  |
+| :------------------: | :------------------------------------: |
+|      Fast Boot       |           Above 4G decoding            |
+|     Secure Boot      |            Hyper-Threading             |
+|   Serial/COM Port    |           EHCI/XHCI Hand-off           |
+|         VT-d         |        OS type: Windows 10 WHQL        |
+|         CSM          | DVMT Pre-Allocated(iGPU Memory): 128MB |
+| Intel Platform Trust |            SATA Mode: AHCI             |
+|       CFG Lock       |                                        |
+|      Intel SGX       |                                        |
 
 注1：本主板 F3版本 BIOS 中无 CFG Lock 解锁选项，可在安装前在选择界面中选择 **CFG Lock.efi** 进行解锁，后可正常安装。
 
@@ -80,10 +82,10 @@ README 中文（当前）
 
 ## 引导及系统版本
 
-|   项目   |         版本          |
-| :------: | :-------------------: |
-| OpenCore |         0.6.8         |
-|  macOS   | Big Sur 11.0.1(20D91) |
+|   项目   |         版本         |
+| :------: | :------------------: |
+| OpenCore |        0.7.1         |
+|  macOS   | Big Sur 11.4 (20F71) |
 
 ## 安装须知
 
