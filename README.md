@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2021年9月2日更新：升级 OC 版本至 0.7.2，kext 常规更新。
+>
 > 2021年7月16日更新：升级 OC 版本至 0.7.1，kext 常规更新。硬件更换更新 CPU 为 10500，增加独立显卡 RX460，修复 UHD630 核显通道号，添加机箱信息。
 >
 > 2021年4月11日更新：升级 OC 版本至 0.6.8，kext 常规更新。移除独立显卡 RX580，改为核显输出，修复核显 HDMI 接口输出，现支持核显 DP、HDMI 双屏输出。
@@ -52,13 +54,13 @@ README 中文（当前）
 
 |            驱动             |     版本      |
 | :-------------------------: | :-----------: |
-|          Lilu.kext          |     1.5.4     |
-|       VirtualSMC.kext       |     1.2.5     |
-|     WhateverGreen.kext      |     1.5.1     |
+|          Lilu.kext          |     1.5.5     |
+|       VirtualSMC.kext       |     1.2.6     |
+|     WhateverGreen.kext      |     1.5.2     |
 |       IntelMausi.kext       |     1.0.7     |
-| IntelBluetoothFirmware.kext |     1.1.3     |
-|      Airportitlwm.kext      | 1.3.0 Big Sur |
-|        AppleALC.kext        |     1.6.2     |
+| IntelBluetoothFirmware.kext |     2.0.0     |
+|      Airportitlwm.kext      | 2.0.0 Big Sur |
+|        AppleALC.kext        |     1.6.3     |
 |           NVMeFix           |     1.0.9     |
 
 注1：AX200 设备相关驱动我已经添加了，**如不需要请自行移除**。
@@ -82,10 +84,10 @@ README 中文（当前）
 
 ## 引导及系统版本
 
-|   项目   |         版本         |
-| :------: | :------------------: |
-| OpenCore |        0.7.1         |
-|  macOS   | Big Sur 11.4 (20F71) |
+|   项目   |          版本          |
+| :------: | :--------------------: |
+| OpenCore |         0.7.2          |
+|  macOS   | Big Sur 11.5.1 (20G80) |
 
 ## 安装须知
 
