@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2021年10月26日更新：升级 OC 版本至 0.7.4，kext 常规更新，支持 Monterey 正式版。
+>
 > 2021年9月2日更新：升级 OC 版本至 0.7.2，kext 常规更新。
 >
 > 2021年7月16日更新：升级 OC 版本至 0.7.1，kext 常规更新。硬件更换更新 CPU 为 10500，增加独立显卡 RX460，修复 UHD630 核显通道号，添加机箱信息。
@@ -52,16 +54,17 @@ README 中文（当前）
 
 ## 主要驱动
 
-|            驱动             |     版本      |
-| :-------------------------: | :-----------: |
-|          Lilu.kext          |     1.5.5     |
-|       VirtualSMC.kext       |     1.2.6     |
-|     WhateverGreen.kext      |     1.5.2     |
-|       IntelMausi.kext       |     1.0.7     |
-| IntelBluetoothFirmware.kext |     2.0.0     |
-|      Airportitlwm.kext      | 2.0.0 Big Sur |
-|        AppleALC.kext        |     1.6.3     |
-|           NVMeFix           |     1.0.9     |
+|            驱动             |      版本      |
+| :-------------------------: | :------------: |
+|          Lilu.kext          |     1.5.6      |
+|       VirtualSMC.kext       |     1.2.7      |
+|     WhateverGreen.kext      |     1.5.4      |
+|       IntelMausi.kext       |     1.0.7      |
+| IntelBluetoothFirmware.kext |     2.0.1      |
+|      Airportitlwm.kext      | 2.0.0 Monterey |
+|        AppleALC.kext        |     1.6.5      |
+|           NVMeFix           |     1.0.9      |
+|     BlueToolFixup.kext      |     2.6.1      |
 
 注1：AX200 设备相关驱动我已经添加了，**如不需要请自行移除**。
 
@@ -84,10 +87,10 @@ README 中文（当前）
 
 ## 引导及系统版本
 
-|   项目   |          版本          |
-| :------: | :--------------------: |
-| OpenCore |         0.7.2          |
-|  macOS   | Big Sur 11.5.1 (20G80) |
+|   项目   |      版本       |
+| :------: | :-------------: |
+| OpenCore |      0.7.4      |
+|  macOS   | Monterey 12.0.1 |
 
 ## 安装须知
 
@@ -99,8 +102,6 @@ README 中文（当前）
 ## 效果查看
 
 ![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/Desktop.png)
-
-![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/macOS.png)
 
 ![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/codec.png)
 

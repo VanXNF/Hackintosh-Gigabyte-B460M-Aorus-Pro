@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2021/10/26 update: OC 0.7.4 and all kexts. Support Monterey now.
+>
 > 2021/9/2 update: OC 0.7.2 and all kexts.
 >
 > 2021/7/16 update: OC 0.7.1 and all kexts. Update I5-10500, add RX460 4G, fix UHD 630 FB, add case information.
@@ -51,16 +53,17 @@ README English(Current)
 
 ## Kexts
 
-|            Kext             |    Version    |
-| :-------------------------: | :-----------: |
-|          Lilu.kext          |     1.5.5     |
-|       VirtualSMC.kext       |     1.2.6     |
-|     WhateverGreen.kext      |     1.5.2     |
-|       IntelMausi.kext       |     1.0.7     |
-| IntelBluetoothFirmware.kext |     2.0.0     |
-|      Airportitlwm.kext      | 2.0.0 Big Sur |
-|        AppleALC.kext        |     1.6.3     |
-|           NVMeFix           |     1.0.9     |
+|            Kext             |    Version     |
+| :-------------------------: | :------------: |
+|          Lilu.kext          |     1.5.6      |
+|       VirtualSMC.kext       |     1.2.7      |
+|     WhateverGreen.kext      |     1.5.4      |
+|       IntelMausi.kext       |     1.0.7      |
+| IntelBluetoothFirmware.kext |     2.0.1      |
+|      Airportitlwm.kext      | 2.0.0 Monterey |
+|        AppleALC.kext        |     1.6.5      |
+|           NVMeFix           |     1.0.9      |
+|     BlueToolFixup.kext      |     2.6.1      |
 
 **Note 1:** I add the kexts for AX200 by default, **remove your own kexts if necessary**.
 
@@ -83,10 +86,10 @@ README English(Current)
 
 ## OpenCore/OS
 
-|   Item   |        Version         |
-| :------: | :--------------------: |
-| OpenCore |         0.7.2          |
-|  macOS   | Big Sur 11.5.1 (20G80) |
+|   Item   |     Version     |
+| :------: | :-------------: |
+| OpenCore |      0.7.4      |
+|  macOS   | Monterey 12.0.1 |
 
 ## README Before Install
 
@@ -98,8 +101,6 @@ README English(Current)
 ## Preview
 
 ![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/Desktop.png)
-
-![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/macOS.png)
 
 ![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/codec.png)
 
