@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2021年10月29日更新：修复 ACPI 未加载问题，重新发布。
+>
 > 2021年10月26日更新：升级 OC 版本至 0.7.4，kext 常规更新，支持 Monterey 正式版。
 >
 > 2021年9月2日更新：升级 OC 版本至 0.7.2，kext 常规更新。

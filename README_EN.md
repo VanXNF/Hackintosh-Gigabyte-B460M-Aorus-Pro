@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2021/10/29 update: fix ACPI not enable and release.
+>
 > 2021/10/26 update: OC 0.7.4 and all kexts. Support Monterey now.
 >
 > 2021/9/2 update: OC 0.7.2 and all kexts.
@@ -45,7 +47,7 @@ README English(Current)
 | Sleep/Wake    | Work.                                      |
 | USB Mapping   | Work.                                      |
 
-**Note 1:** you should map your own USB ports if my mapping can not work properly.
+**Note 1:** To meet the limit of 15 usb ports on macOS, I had to limit the usb2 of the usb3 Port on the back of the chassis, I have 2 usb3 ports on the front panel that they can respond to both usb2 and usb3 devices. To sum up, usb3 ports on the back of the chassis can only respond to usb3 devices. So that **you should connect keyboard and mouse with usb2 ports.** You should remap your own USB ports if my mapping can not work properly.
 
 ## Known issues
 
