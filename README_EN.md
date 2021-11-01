@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2021/11/1 update: fix AX200 bluetooth.
+>
 > 2021/10/29 update: fix ACPI not enable and release.
 >
 > 2021/10/26 update: OC 0.7.4 and all kexts. Support Monterey now.
@@ -88,10 +90,10 @@ README English(Current)
 
 ## OpenCore/OS
 
-|   Item   |     Version     |
-| :------: | :-------------: |
-| OpenCore |      0.7.4      |
-|  macOS   | Monterey 12.0.1 |
+|   Item   |         Version          |
+| :------: | :----------------------: |
+| OpenCore |          0.7.4           |
+|  macOS   | Monterey 12.0.1 (21A559) |
 
 ## README Before Install
 

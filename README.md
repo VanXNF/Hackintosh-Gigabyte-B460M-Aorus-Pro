@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2021年11月1日更新：修复 AX200 蓝牙无法正常启闭。
+>
 > 2021年10月29日更新：修复 ACPI 未加载问题，重新发布。
 >
 > 2021年10月26日更新：升级 OC 版本至 0.7.4，kext 常规更新，支持 Monterey 正式版。
@@ -89,10 +91,10 @@ README 中文（当前）
 
 ## 引导及系统版本
 
-|   项目   |      版本       |
-| :------: | :-------------: |
-| OpenCore |      0.7.4      |
-|  macOS   | Monterey 12.0.1 |
+|   项目   |           版本           |
+| :------: | :----------------------: |
+| OpenCore |          0.7.4           |
+|  macOS   | Monterey 12.0.1 (21A559) |
 
 ## 安装须知
 
