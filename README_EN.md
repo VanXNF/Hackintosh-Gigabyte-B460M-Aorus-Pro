@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2021/12/12 update: OC 0.7.6 and all kexts.
+>
 > 2021/11/1 update: fix AX200 bluetooth.
 >
 > 2021/10/29 update: fix ACPI not enable and release.
@@ -59,13 +61,13 @@ README English(Current)
 
 |            Kext             |    Version     |
 | :-------------------------: | :------------: |
-|          Lilu.kext          |     1.5.6      |
-|       VirtualSMC.kext       |     1.2.7      |
-|     WhateverGreen.kext      |     1.5.4      |
+|          Lilu.kext          |     1.5.8      |
+|       VirtualSMC.kext       |     1.2.8      |
+|     WhateverGreen.kext      |     1.5.5      |
 |       IntelMausi.kext       |     1.0.7      |
 | IntelBluetoothFirmware.kext |     2.0.1      |
 |      Airportitlwm.kext      | 2.0.0 Monterey |
-|        AppleALC.kext        |     1.6.5      |
+|        AppleALC.kext        |     1.6.7      |
 |           NVMeFix           |     1.0.9      |
 |     BlueToolFixup.kext      |     2.6.1      |
 
