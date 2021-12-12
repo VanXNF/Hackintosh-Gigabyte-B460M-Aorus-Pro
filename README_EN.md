@@ -94,7 +94,7 @@ README English(Current)
 
 |   Item   |         Version          |
 | :------: | :----------------------: |
-| OpenCore |          0.7.4           |
+| OpenCore |          0.7.6           |
 |  macOS   | Monterey 12.0.1 (21A559) |
 
 ## README Before Install
