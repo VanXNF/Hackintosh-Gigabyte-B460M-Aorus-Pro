@@ -4,7 +4,9 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
-> 2021年12月12日更新：升级OC版本至 0.7.6，kext 常规更新。
+> 2022年1月17日更新：升级 OC 版本至 0.7.7，kext 常规更新。
+>
+> 2021年12月12日更新：升级 OC 版本至 0.7.6，kext 常规更新。
 >
 > 2021年11月1日更新：修复 AX200 蓝牙无法正常启闭。
 >
@@ -62,13 +64,13 @@ README 中文（当前）
 
 |            驱动             |      版本      |
 | :-------------------------: | :------------: |
-|          Lilu.kext          |     1.5.8      |
+|          Lilu.kext          |     1.5.9      |
 |       VirtualSMC.kext       |     1.2.8      |
-|     WhateverGreen.kext      |     1.5.5      |
+|     WhateverGreen.kext      |     1.5.6      |
 |       IntelMausi.kext       |     1.0.7      |
-| IntelBluetoothFirmware.kext |     2.0.1      |
-|      Airportitlwm.kext      | 2.0.0 Monterey |
-|        AppleALC.kext        |     1.6.7      |
+| IntelBluetoothFirmware.kext |     2.1.0      |
+|      Airportitlwm.kext      | 2.1.0 Monterey |
+|        AppleALC.kext        |     1.6.8      |
 |           NVMeFix           |     1.0.9      |
 |     BlueToolFixup.kext      |     2.6.1      |
 
@@ -93,10 +95,10 @@ README 中文（当前）
 
 ## 引导及系统版本
 
-|   项目   |           版本           |
-| :------: | :----------------------: |
-| OpenCore |          0.7.6           |
-|  macOS   | Monterey 12.0.1 (21A559) |
+|   项目   |         版本          |
+| :------: | :-------------------: |
+| OpenCore |         0.7.7         |
+|  macOS   | Monterey 12.1 (21C52) |
 
 ## 安装须知
 

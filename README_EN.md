@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2021/1/17 update: OC 0.7.7 and all kexts.
+>
 > 2021/12/12 update: OC 0.7.6 and all kexts.
 >
 > 2021/11/1 update: fix AX200 bluetooth.
@@ -61,13 +63,13 @@ README English(Current)
 
 |            Kext             |    Version     |
 | :-------------------------: | :------------: |
-|          Lilu.kext          |     1.5.8      |
+|          Lilu.kext          |     1.5.9      |
 |       VirtualSMC.kext       |     1.2.8      |
-|     WhateverGreen.kext      |     1.5.5      |
+|     WhateverGreen.kext      |     1.5.6      |
 |       IntelMausi.kext       |     1.0.7      |
-| IntelBluetoothFirmware.kext |     2.0.1      |
-|      Airportitlwm.kext      | 2.0.0 Monterey |
-|        AppleALC.kext        |     1.6.7      |
+| IntelBluetoothFirmware.kext |     2.1.0      |
+|      Airportitlwm.kext      | 2.1.0 Monterey |
+|        AppleALC.kext        |     1.6.8      |
 |           NVMeFix           |     1.0.9      |
 |     BlueToolFixup.kext      |     2.6.1      |
 
@@ -92,10 +94,10 @@ README English(Current)
 
 ## OpenCore/OS
 
-|   Item   |         Version          |
-| :------: | :----------------------: |
-| OpenCore |          0.7.6           |
-|  macOS   | Monterey 12.0.1 (21A559) |
+|   Item   |        Version        |
+| :------: | :-------------------: |
+| OpenCore |         0.7.7         |
+|  macOS   | Monterey 12.1 (21C52) |
 
 ## README Before Install
 
