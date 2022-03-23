@@ -4,7 +4,9 @@
 
 README English(Current)
 
-> 2021/1/17 update: OC 0.7.7 and all kexts.
+> 2022/3/23 update: OC 0.7.9 and all kexts.
+>
+> 2022/1/17 update: OC 0.7.7 and all kexts.
 >
 > 2021/12/12 update: OC 0.7.6 and all kexts.
 >
@@ -18,7 +20,7 @@ README English(Current)
 >
 > 2021/7/16 update: OC 0.7.1 and all kexts. Update I5-10500, add RX460 4G, fix UHD 630 FB, add case information.
 >
-> 2021/4/11 update: OC 0.6.8 and all kexts. AMD RX580 has been removed, UHD630 is used to drive a display (support DP and HDMI). 
+> 2021/4/11 update: OC 0.6.8 and all kexts. AMD RX580 has been removed, UHD630 is used to drive a display (support DP and HDMI).
 >
 > 2021/3/17 update: OC 0.6.7 and all kexts.
 >
@@ -61,17 +63,17 @@ README English(Current)
 
 ## Kexts
 
-|            Kext             |    Version     |
-| :-------------------------: | :------------: |
-|          Lilu.kext          |     1.5.9      |
-|       VirtualSMC.kext       |     1.2.8      |
-|     WhateverGreen.kext      |     1.5.6      |
-|       IntelMausi.kext       |     1.0.7      |
-| IntelBluetoothFirmware.kext |     2.1.0      |
-|      Airportitlwm.kext      | 2.1.0 Monterey |
-|        AppleALC.kext        |     1.6.8      |
-|           NVMeFix           |     1.0.9      |
-|     BlueToolFixup.kext      |     2.6.1      |
+|            Kext             |          Version           |
+| :-------------------------: | :------------------------: |
+|          Lilu.kext          |           1.6.0            |
+|       VirtualSMC.kext       |           1.2.9            |
+|     WhateverGreen.kext      |           1.5.8            |
+|       IntelMausi.kext       |           1.0.7            |
+| IntelBluetoothFirmware.kext |           2.1.0            |
+|      Airportitlwm.kext      | 2.1.0 Monterey and Big Sur |
+|        AppleALC.kext        |           1.7.0            |
+|           NVMeFix           |           1.0.9            |
+|     BlueToolFixup.kext      |           2.6.1            |
 
 **Note 1:** I add the kexts for AX200 by default, **remove your own kexts if necessary**.
 
@@ -96,8 +98,8 @@ README English(Current)
 
 |   Item   |        Version        |
 | :------: | :-------------------: |
-| OpenCore |         0.7.7         |
-|  macOS   | Monterey 12.1 (21C52) |
+| OpenCore |         0.7.9         |
+|  macOS   | Monterey 12.3 (21E23) |
 
 ## README Before Install
 

@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2022年3月23日更新：升级 OC 版本至 0.7.9，kext 常规更新。
+>
 > 2022年1月17日更新：升级 OC 版本至 0.7.7，kext 常规更新。
 >
 > 2021年12月12日更新：升级 OC 版本至 0.7.6，kext 常规更新。
@@ -62,17 +64,17 @@ README 中文（当前）
 
 ## 主要驱动
 
-|            驱动             |      版本      |
-| :-------------------------: | :------------: |
-|          Lilu.kext          |     1.5.9      |
-|       VirtualSMC.kext       |     1.2.8      |
-|     WhateverGreen.kext      |     1.5.6      |
-|       IntelMausi.kext       |     1.0.7      |
-| IntelBluetoothFirmware.kext |     2.1.0      |
-|      Airportitlwm.kext      | 2.1.0 Monterey |
-|        AppleALC.kext        |     1.6.8      |
-|           NVMeFix           |     1.0.9      |
-|     BlueToolFixup.kext      |     2.6.1      |
+|            驱动             |            版本            |
+| :-------------------------: | :------------------------: |
+|          Lilu.kext          |           1.6.0            |
+|       VirtualSMC.kext       |           1.2.9            |
+|     WhateverGreen.kext      |           1.5.8            |
+|       IntelMausi.kext       |           1.0.7            |
+| IntelBluetoothFirmware.kext |           2.1.0            |
+|      Airportitlwm.kext      | 2.1.0 Monterey and Big Sur |
+|        AppleALC.kext        |           1.7.0            |
+|           NVMeFix           |           1.0.9            |
+|     BlueToolFixup.kext      |           2.6.1            |
 
 注1：AX200 设备相关驱动我已经添加了，**如不需要请自行移除**。
 
@@ -95,14 +97,15 @@ README 中文（当前）
 
 ## 引导及系统版本
 
-|   项目   |         版本          |
-| :------: | :-------------------: |
-| OpenCore |         0.7.7         |
-|  macOS   | Monterey 12.1 (21C52) |
+|   项目   |          版本          |
+| :------: | :--------------------: |
+| OpenCore |         0.7.9          |
+|  macOS   | Monterey 12.3 (21E230) |
 
 ## 安装须知
 
-- 机型我设定为 iMac20,1，有需要请自行更改，另需要自行补充三码。**仅适用安装 Catalina 10.15.6(19G2021) 及以上版本，如有需要请自行替换为 iMac19,1。**
+- 机型我设定为 iMac20,1，有需要请自行更改，另需要自行补充三码。
+- **本 EFI 仅适用安装 Big Sur 及以上版本，如有需要请自行修改。**
 - DeviceProperties 中核显、声卡、网卡已内建，进系统后请根据需要修正总线地址或移除。
 - 理论上来讲本 EFI 在各个品牌 B460M 主板上通用，具体调整请自行解决。
 - 使用本 EFI **请务必先阅读上述文字**，完成各项 BIOS 设置，尤其是在 **OC 引导菜单**先解锁 CFG。
