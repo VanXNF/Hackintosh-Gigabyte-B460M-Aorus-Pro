@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2022/5/30 update: OC 0.8.0 and all kexts.
+>
 > 2022/3/23 update: OC 0.7.9 and all kexts.
 >
 > 2022/1/17 update: OC 0.7.7 and all kexts.
@@ -71,7 +73,7 @@ README English(Current)
 |       IntelMausi.kext       |           1.0.7            |
 | IntelBluetoothFirmware.kext |           2.1.0            |
 |      Airportitlwm.kext      | 2.1.0 Monterey and Big Sur |
-|        AppleALC.kext        |           1.7.0            |
+|        AppleALC.kext        |           1.7.1            |
 |           NVMeFix           |           1.0.9            |
 |     BlueToolFixup.kext      |           2.6.1            |
 
@@ -98,8 +100,8 @@ README English(Current)
 
 |   Item   |        Version        |
 | :------: | :-------------------: |
-| OpenCore |         0.7.9         |
-|  macOS   | Monterey 12.3 (21E23) |
+| OpenCore |         0.8.0         |
+|  macOS   | Monterey 12.4 (21F79) |
 
 ## README Before Install
 

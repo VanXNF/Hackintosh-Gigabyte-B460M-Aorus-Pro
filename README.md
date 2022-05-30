@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2022年5月30日更新：升级 OC 版本至 0.8.0，kext 常规更新。
+>
 > 2022年3月23日更新：升级 OC 版本至 0.7.9，kext 常规更新。
 >
 > 2022年1月17日更新：升级 OC 版本至 0.7.7，kext 常规更新。
@@ -72,7 +74,7 @@ README 中文（当前）
 |       IntelMausi.kext       |           1.0.7            |
 | IntelBluetoothFirmware.kext |           2.1.0            |
 |      Airportitlwm.kext      | 2.1.0 Monterey and Big Sur |
-|        AppleALC.kext        |           1.7.0            |
+|        AppleALC.kext        |           1.7.1            |
 |           NVMeFix           |           1.0.9            |
 |     BlueToolFixup.kext      |           2.6.1            |
 
@@ -97,10 +99,10 @@ README 中文（当前）
 
 ## 引导及系统版本
 
-|   项目   |          版本          |
-| :------: | :--------------------: |
-| OpenCore |         0.7.9          |
-|  macOS   | Monterey 12.3 (21E230) |
+|   项目   |         版本          |
+| :------: | :-------------------: |
+| OpenCore |         0.8.0         |
+|  macOS   | Monterey 12.4 (21F79) |
 
 ## 安装须知
 
