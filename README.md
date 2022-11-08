@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2022年11月8日更新：升级 OC 版本至 0.8.5，kext 常规更新，支持 Ventura 正式版。
+>
 > 2022年10月1日更新：升级 OC 版本至 0.8.4，kext 常规更新。
 >
 > 2022年5月30日更新：升级 OC 版本至 0.8.0，kext 常规更新。
@@ -68,17 +70,17 @@ README 中文（当前）
 
 ## 主要驱动
 
-|            驱动             |            版本            |
-| :-------------------------: | :------------------------: |
-|          Lilu.kext          |           1.6.2            |
-|       VirtualSMC.kext       |           1.3.0            |
-|     WhateverGreen.kext      |           1.6.1            |
-|       IntelMausi.kext       |           1.0.7            |
-| IntelBluetoothFirmware.kext |           2.1.0            |
-|      Airportitlwm.kext      | 2.1.0 Monterey and Big Sur |
-|        AppleALC.kext        |           1.7.5            |
-|           NVMeFix           |           1.1.0            |
-|     BlueToolFixup.kext      |           2.6.3            |
+|            驱动             |              版本              |
+| :-------------------------: | :----------------------------: |
+|          Lilu.kext          |             1.6.2              |
+|       VirtualSMC.kext       |             1.3.0              |
+|     WhateverGreen.kext      |             1.6.1              |
+|       IntelMausi.kext       |             1.0.7              |
+| IntelBluetoothFirmware.kext |             2.2.0              |
+|      Airportitlwm.kext      | 2.2.0 Ventura/Monterey/Big Sur |
+|        AppleALC.kext        |             1.7.6              |
+|           NVMeFix           |             1.1.0              |
+|     BlueToolFixup.kext      |             2.6.4              |
 
 注1：AX200 设备相关驱动我已经添加了，**如不需要请自行移除**。
 
@@ -95,16 +97,16 @@ README 中文（当前）
 |       CFG Lock       |                                        |
 |      Intel SGX       |                                        |
 
-注1：本主板 F3版本 BIOS 中无 CFG Lock 解锁选项，可在安装前在选择界面中选择 **CFG Lock.efi** 进行解锁，后可正常安装。
+注1：本主板 F3版本 BIOS 中无 CFG Lock 解锁选项，可在安装前在选择界面中选择 **CFG Lock.efi** 进行解锁，后可正常安装。最新版本的 BIOS 中有 CFG 选项，可直接解锁。
 
 注2：注意 Windows10 WHQL 模式可以解决主板 logo 模糊的问题。
 
 ## 引导及系统版本
 
-|   项目   |          版本          |
-| :------: | :--------------------: |
-| OpenCore |         0.8.4          |
-|  macOS   | Monterey 12.6 (21G115) |
+|   项目   |         版本          |
+| :------: | :-------------------: |
+| OpenCore |         0.8.5         |
+|  macOS   | Ventura 13.0 (22A380) |
 
 ## 安装须知
 

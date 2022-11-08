@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2022/11/8 update: OC 0.8.5 and all kexts. Support Ventura Now.
+>
 > 2022/10/1 update: OC 0.8.4 and all kexts.
 >
 > 2022/5/30 update: OC 0.8.0 and all kexts.
@@ -67,17 +69,17 @@ README English(Current)
 
 ## Kexts
 
-|            Kext             |          Version           |
-| :-------------------------: | :------------------------: |
-|          Lilu.kext          |           1.6.2            |
-|       VirtualSMC.kext       |           1.3.0            |
-|     WhateverGreen.kext      |           1.6.1            |
-|       IntelMausi.kext       |           1.0.7            |
-| IntelBluetoothFirmware.kext |           2.1.0            |
-|      Airportitlwm.kext      | 2.1.0 Monterey and Big Sur |
-|        AppleALC.kext        |           1.7.5            |
-|           NVMeFix           |           1.1.0            |
-|     BlueToolFixup.kext      |           2.6.3            |
+|            Kext             |            Version             |
+| :-------------------------: | :----------------------------: |
+|          Lilu.kext          |             1.6.2              |
+|       VirtualSMC.kext       |             1.3.0              |
+|     WhateverGreen.kext      |             1.6.1              |
+|       IntelMausi.kext       |             1.0.7              |
+| IntelBluetoothFirmware.kext |             2.2.0              |
+|      Airportitlwm.kext      | 2.2.0 Ventura/Monterey/Big Sur |
+|        AppleALC.kext        |             1.7.6              |
+|           NVMeFix           |             1.1.0              |
+|     BlueToolFixup.kext      |             2.6.4              |
 
 **Note 1:** I add the kexts for AX200 by default, **remove your own kexts if necessary**.
 
@@ -100,10 +102,10 @@ README English(Current)
 
 ## OpenCore/OS
 
-|   Item   |        Version         |
-| :------: | :--------------------: |
-| OpenCore |         0.8.4          |
-|  macOS   | Monterey 12.6 (21G115) |
+|   Item   |        Version        |
+| :------: | :-------------------: |
+| OpenCore |         0.8.5         |
+|  macOS   | Ventura 13.0 (22A380) |
 
 ## README Before Install
 
