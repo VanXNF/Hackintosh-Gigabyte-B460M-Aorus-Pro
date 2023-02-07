@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2023年2月7日更新：修复 Ventura 下 Intel 蓝牙问题，取消 debug 信息输出，核显ID变更为 0300C89B（仅用于加速，不用于屏幕输出）。
+>
 > 2023年1月27日更新：升级 OC 版本至 0.8.8，kext 常规更新。
 >
 > 2022年11月8日更新：升级 OC 版本至 0.8.5，kext 常规更新，支持 Ventura 正式版。
@@ -72,17 +74,17 @@ README 中文（当前）
 
 ## 主要驱动
 
-|            驱动             |              版本              |
-| :-------------------------: | :----------------------------: |
-|          Lilu.kext          |             1.6.3              |
-|       VirtualSMC.kext       |             1.3.0              |
-|     WhateverGreen.kext      |             1.6.3              |
-|       IntelMausi.kext       |             1.0.7              |
-| IntelBluetoothFirmware.kext |             2.2.0              |
-|      Airportitlwm.kext      | 2.2.0 Ventura/Monterey/Big Sur |
-|        AppleALC.kext        |             1.7.8              |
-|           NVMeFix           |             1.1.0              |
-|     BlueToolFixup.kext      |             2.6.4              |
+|            驱动             |          版本          |
+| :-------------------------: | :--------------------: |
+|          Lilu.kext          |         1.6.3          |
+|       VirtualSMC.kext       |         1.3.0          |
+|     WhateverGreen.kext      |         1.6.3          |
+|       IntelMausi.kext       |         1.0.7          |
+| IntelBluetoothFirmware.kext |         2.2.0          |
+|      Airportitlwm.kext      | 2.2.0 Ventura/Monterey |
+|        AppleALC.kext        |         1.7.8          |
+|           NVMeFix           |         1.1.0          |
+|     BlueToolFixup.kext      |         2.6.4          |
 
 注1：AX200 设备相关驱动我已经添加了，**如不需要请自行移除**。
 

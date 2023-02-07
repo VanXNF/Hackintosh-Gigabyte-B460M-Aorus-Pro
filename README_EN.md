@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2023/2/7 update: Fix Intel Bluetooth issue(Ventura), diable debug output, UHD630 use ID 0300C89B(UHD630 used for acceleration only).
+>
 > 2023/1/27 update: OC 0.8.8 and all kexts.
 >
 > 2022/11/8 update: OC 0.8.5 and all kexts. Support Ventura Now.
@@ -71,17 +73,17 @@ README English(Current)
 
 ## Kexts
 
-|            Kext             |            Version             |
-| :-------------------------: | :----------------------------: |
-|          Lilu.kext          |             1.6.3              |
-|       VirtualSMC.kext       |             1.3.0              |
-|     WhateverGreen.kext      |             1.6.3              |
-|       IntelMausi.kext       |             1.0.7              |
-| IntelBluetoothFirmware.kext |             2.2.0              |
-|      Airportitlwm.kext      | 2.2.0 Ventura/Monterey/Big Sur |
-|        AppleALC.kext        |             1.7.8              |
-|           NVMeFix           |             1.1.0              |
-|     BlueToolFixup.kext      |             2.6.4              |
+|            Kext             |        Version         |
+| :-------------------------: | :--------------------: |
+|          Lilu.kext          |         1.6.3          |
+|       VirtualSMC.kext       |         1.3.0          |
+|     WhateverGreen.kext      |         1.6.3          |
+|       IntelMausi.kext       |         1.0.7          |
+| IntelBluetoothFirmware.kext |         2.2.0          |
+|      Airportitlwm.kext      | 2.2.0 Ventura/Monterey |
+|        AppleALC.kext        |         1.7.8          |
+|           NVMeFix           |         1.1.0          |
+|     BlueToolFixup.kext      |         2.6.4          |
 
 **Note 1:** I add the kexts for AX200 by default, **remove your own kexts if necessary**.
 

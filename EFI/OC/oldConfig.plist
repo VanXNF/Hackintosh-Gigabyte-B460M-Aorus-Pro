@@ -30,6 +30,14 @@
                     <key>Path</key>
                     <string>SSDT-EC.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USBX.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -267,25 +275,9 @@
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
                     <key>AAPL,ig-platform-id</key>
-                    <data>BwCbPg==</data>
-                    <key>AAPL,slot-name</key>
-                    <string>Internal@0,4,0</string>
-                    <key>device-id</key>
-                    <data>mz4AAA==</data>
-                    <key>device_type</key>
-                    <string>Display controller</string>
-                    <key>framebuffer-con0-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-con2-alldata</key>
-                    <data>AwYIAAAIAADHAwAA</data>
-                    <key>framebuffer-con2-enable</key>
-                    <data>AQAAAA==</data>
+                    <data>AwDImw==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
-                    <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
-                    <key>model</key>
-                    <string>Intel UHD Graphics 630</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -423,7 +415,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>AirportItlwm-Ventura.kext</string>
                     <key>Comment</key>
@@ -441,7 +433,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>x86_64</string>
+                    <string>Any</string>
                     <key>BundlePath</key>
                     <string>AirportItlwm-Monterey.kext</string>
                     <key>Comment</key>
@@ -454,24 +446,6 @@
                     <string>21.99.99</string>
                     <key>MinKernel</key>
                     <string>21.0.0</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>x86_64</string>
-                    <key>BundlePath</key>
-                    <string>AirportItlwm-BigSur.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string>Contents/MacOS/AirportItlwm</string>
-                    <key>MaxKernel</key>
-                    <string>20.99.99</string>
-                    <key>MinKernel</key>
-                    <string>20.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -551,6 +525,24 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
+                    <string>IntelBTPatcher.kext</string>
+                    <key>Comment</key>
+                    <string>V2.2.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/IntelBTPatcher</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string>21.0.0</string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
                     <string>V2.2.0</string>
@@ -561,7 +553,7 @@
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
-                    <string></string>
+                    <string>21.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -580,24 +572,6 @@
                     <string></string>
                     <key>MinKernel</key>
                     <string>21.0.0</string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>x86_64</string>
-                    <key>BundlePath</key>
-                    <string>IntelBluetoothInjector.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string>20.99.99</string>
-                    <key>MinKernel</key>
-                    <string></string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
@@ -956,7 +930,7 @@
                 <key>PickerVariant</key>
                 <string>Auto</string>
                 <key>PollAppleHotKeys</key>
-                <true/>
+                <false/>
                 <key>ShowPicker</key>
                 <true/>
                 <key>TakeoffDelay</key>
@@ -967,11 +941,11 @@
             <key>Debug</key>
             <dict>
                 <key>AppleDebug</key>
-                <true/>
+                <false/>
                 <key>ApplePanic</key>
-                <true/>
+                <false/>
                 <key>DisableWatchDog</key>
-                <true/>
+                <false/>
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
@@ -981,7 +955,7 @@
                 <key>SysReport</key>
                 <false/>
                 <key>Target</key>
-                <integer>3</integer>
+                <integer>0</integer>
             </dict>
             <key>Entries</key>
             <array/>
@@ -1072,6 +1046,28 @@
                     <key>TextMode</key>
                     <false/>
                 </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Auxiliary</key>
+                    <true/>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Flavour</key>
+                    <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <true/>
+                    <key>Name</key>
+                    <string>CleanNvram</string>
+                    <key>Path</key>
+                    <string>CleanNvram.efi</string>
+                    <key>RealPath</key>
+                    <true/>
+                    <key>TextMode</key>
+                    <true/>
+                </dict>
             </array>
         </dict>
         <key>NVRAM</key>
@@ -1097,7 +1093,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 debug=0x100</string>
+                    <string></string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1167,7 +1163,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02005102CDPHCDFB</string>
+                <string>C02012802GUPHCDUE</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1181,9 +1177,9 @@
                 <key>SystemProductName</key>
                 <string>iMac20,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02C6AY0PN5T</string>
+                <string>C02CG3ZYPN5T</string>
                 <key>SystemUUID</key>
-                <string>E8204BA8-31CC-48EA-9003-5CEE521CE10C</string>
+                <string>D4E3F11A-D8CE-4226-99BA-03087B4A473D</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
