@@ -4,6 +4,8 @@
 
 README English(Current)
 
+> 2023/3/5 update: OC 0.8.9 and all kexts. Remove RX 460, add RX 6600XT.
+>
 > 2023/2/7 update: Fix Intel Bluetooth issue(Ventura), diable debug output, UHD630 use ID 0300C89B(UHD630 used for acceleration only).
 >
 > 2023/1/27 update: OC 0.8.8 and all kexts.
@@ -47,7 +49,7 @@ README English(Current)
 |      CPU      |         I5-10500         |
 |  Motherboard  | Gigabyte B460M Aorus Pro |
 |     GPU0      |  Intel UHD Graphics 630  |
-|     GPU1      |   AMD Radeon RX 460 4G   |
+|     GPU1      | AMD Radeon RX 6600XT 8G  |
 |     Audio     |    Realtek ALCS1200A     |
 | Ethernet Card |      Intel I219V12       |
 | WiFI/BT Card  |      Wi-Fi 6 AX200       |
@@ -55,15 +57,15 @@ README English(Current)
 
 ## What works
 
-| Function      | Status                                     |
-| ------------- | ------------------------------------------ |
-| CPU           | Work.                                      |
-| GPU           | DP, HDMI work. Hardware acceleration work. |
-| Audio         | Work with layout-id 50.                    |
-| Ethernet Card | Work.                                      |
-| WIFI/BT       | Work.                                      |
-| Sleep/Wake    | Work.                                      |
-| USB Mapping   | Work.                                      |
+| Function      | Status                      |
+| ------------- | --------------------------- |
+| CPU           | Work.                       |
+| GPU           | Hardware acceleration work. |
+| Audio         | Work with layout-id 50.     |
+| Ethernet Card | Work.                       |
+| WIFI/BT       | Work.                       |
+| Sleep/Wake    | Work.                       |
+| USB Mapping   | Work.                       |
 
 **Note 1:** To meet the limit of 15 usb ports on macOS, I had to limit the usb2 of the usb3 Port on the back of the chassis, I have 2 usb3 ports on the front panel that they can respond to both usb2 and usb3 devices. To sum up, usb3 ports on the back of the chassis can only respond to usb3 devices. So that **you should connect keyboard and mouse with usb2 ports.** You should remap your own USB ports if my mapping can not work properly.
 
@@ -77,11 +79,11 @@ README English(Current)
 | :-------------------------: | :--------------------: |
 |          Lilu.kext          |         1.6.3          |
 |       VirtualSMC.kext       |         1.3.0          |
-|     WhateverGreen.kext      |         1.6.3          |
+|     WhateverGreen.kext      |         1.6.4          |
 |       IntelMausi.kext       |         1.0.7          |
 | IntelBluetoothFirmware.kext |         2.2.0          |
 |      Airportitlwm.kext      | 2.2.0 Ventura/Monterey |
-|        AppleALC.kext        |         1.7.8          |
+|        AppleALC.kext        |         1.7.9          |
 |           NVMeFix           |         1.1.0          |
 |     BlueToolFixup.kext      |         2.6.4          |
 
@@ -108,7 +110,7 @@ README English(Current)
 
 |   Item   |       Version        |
 | :------: | :------------------: |
-| OpenCore |        0.8.8         |
+| OpenCore |        0.8.9         |
 |  macOS   | Ventura 13.2 (22D49) |
 
 ## README Before Install

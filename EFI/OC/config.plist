@@ -232,7 +232,7 @@
                 <key>RebuildAppleMemoryMap</key>
                 <true/>
                 <key>ResizeAppleGpuBars</key>
-                <integer>-1</integer>
+                <integer>0</integer>
                 <key>SetupVirtualMap</key>
                 <false/>
                 <key>SignalAppleOS</key>
@@ -245,6 +245,19 @@
         <dict>
             <key>Add</key>
             <dict>
+                <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>@0,name</key>
+                    <string>ATY,Henbury</string>
+                    <key>@1,name</key>
+                    <string>ATY,Henbury</string>
+                    <key>@2,name</key>
+                    <string>ATY,Henbury</string>
+                    <key>@3,name</key>
+                    <string>ATY,Henbury</string>
+                    <key>AAPL,slot-name</key>
+                    <string>Slot-1</string>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
@@ -276,8 +289,6 @@
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>AwDImw==</data>
-                    <key>framebuffer-patch-enable</key>
-                    <data>AQAAAA==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -329,7 +340,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.3</string>
+                    <string>V1.6.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -347,7 +358,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.8 | Audio patches</string>
+                    <string>V1.7.9 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -859,7 +870,7 @@
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
-                <false/>
+                <true/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
@@ -1093,7 +1104,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string></string>
+                    <string>agdpmod=pikera</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1163,7 +1174,7 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02238600CDPHC1CB</string>
+                <string>C02012802GUPHCDUE</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
@@ -1177,9 +1188,9 @@
                 <key>SystemProductName</key>
                 <string>iMac20,1</string>
                 <key>SystemSerialNumber</key>
-                <string>C02JF7ZQPN5T</string>
+                <string>C02CG3ZYPN5T</string>
                 <key>SystemUUID</key>
-                <string>7EF5E3CE-C0A6-4D59-B74F-48577CD9FDAB</string>
+                <string>D4E3F11A-D8CE-4226-99BA-03087B4A473D</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1421,6 +1432,8 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
+                <key>ResizeUsePciRbIo</key>
+                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>

@@ -4,6 +4,8 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
+> 2023年3月5日更新：升级 OC 版本至 0.8.9，kext 常规更新，独立显卡更新为 RX6600XT。
+>
 > 2023年2月7日更新：修复 Ventura 下 Intel 蓝牙问题，取消 debug 信息输出，核显ID变更为 0300C89B（仅用于加速，不用于屏幕输出）。
 >
 > 2023年1月27日更新：升级 OC 版本至 0.8.8，kext 常规更新。
@@ -47,7 +49,7 @@ README 中文（当前）
 |   CPU    |         I5-10500         |
 |   主板   | Gigabyte B460M Aorus Pro |
 | 集成显卡 |  Intel UHD Graphics 630  |
-| 独立显卡 |   AMD Radeon RX 460 4G   |
+| 独立显卡 | AMD Radeon RX 6600XT 8G  |
 |   声卡   |    Realtek ALCS1200A     |
 | 有线网卡 |      Intel I219V12       |
 | 无线网卡 |      Wi-Fi 6 AX200       |
@@ -56,15 +58,15 @@ README 中文（当前）
 
 ## 功能
 
-| 功能     | 完成度                           |
-| -------- | -------------------------------- |
-| CPU 变频 | 正常                             |
-| 核显     | DP及HDMI输出正常，硬件加速正常。 |
-| 声卡     | 正常，使用 layout-id 50          |
-| 网卡     | 正常                             |
-| 蓝牙     | 正常                             |
-| 睡眠     | 正常                             |
-| USB      | 正常                             |
+| 功能     | 完成度                  |
+| -------- | ----------------------- |
+| CPU 变频 | 正常                    |
+| 核显     | 硬件加速正常。          |
+| 声卡     | 正常，使用 layout-id 50 |
+| 网卡     | 正常                    |
+| 蓝牙     | 正常                    |
+| 睡眠     | 正常                    |
+| USB      | 正常                    |
 
 注：USB 端口我屏蔽了后置 USB3 端口的 USB2 支持，加入了机箱前置的 USB3 端口，如有需要请自行定制 USB。
 
@@ -78,11 +80,11 @@ README 中文（当前）
 | :-------------------------: | :--------------------: |
 |          Lilu.kext          |         1.6.3          |
 |       VirtualSMC.kext       |         1.3.0          |
-|     WhateverGreen.kext      |         1.6.3          |
+|     WhateverGreen.kext      |         1.6.4          |
 |       IntelMausi.kext       |         1.0.7          |
 | IntelBluetoothFirmware.kext |         2.2.0          |
 |      Airportitlwm.kext      | 2.2.0 Ventura/Monterey |
-|        AppleALC.kext        |         1.7.8          |
+|        AppleALC.kext        |         1.7.9          |
 |           NVMeFix           |         1.1.0          |
 |     BlueToolFixup.kext      |         2.6.4          |
 
@@ -109,7 +111,7 @@ README 中文（当前）
 
 |   项目   |         版本         |
 | :------: | :------------------: |
-| OpenCore |        0.8.8         |
+| OpenCore |        0.8.9         |
 |  macOS   | Ventura 13.2 (22D49) |
 
 ## 安装须知
