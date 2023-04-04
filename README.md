@@ -127,7 +127,7 @@ sudo pmset tcpkeepalive 0
 
 ## 效果查看
 
-![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/desktop.png)
+![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/Desktop.png)
 
 ## 更新日志
 
