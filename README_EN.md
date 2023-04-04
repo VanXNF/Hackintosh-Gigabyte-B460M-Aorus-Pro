@@ -114,7 +114,7 @@ sudo pmset tcpkeepalive 0
 
 ## Kexts
 
-![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/Kernels.png)
+![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/kernels.png)
 
 ## OpenCore/OS
 
@@ -125,7 +125,7 @@ sudo pmset tcpkeepalive 0
 
 ## Preview
 
-![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/Desktop.png)
+![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/desktop.png)
 
 ### Update Log
 

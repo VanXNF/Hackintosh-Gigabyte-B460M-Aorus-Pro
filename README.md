@@ -116,7 +116,7 @@ sudo pmset tcpkeepalive 0
 
 ## 主要驱动及加载顺序
 
-![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/Kernels.png)
+![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/kernels.png)
 
 ## 引导及系统版本
 
@@ -127,7 +127,7 @@ sudo pmset tcpkeepalive 0
 
 ## 效果查看
 
-![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/Desktop.png)
+![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/desktop.png)
 
 ## 更新日志
 
