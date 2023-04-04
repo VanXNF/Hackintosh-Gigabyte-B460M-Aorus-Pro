@@ -14,7 +14,7 @@ README English(Current)
 
 ### BIOS Setting
 
-|         关闭         |                  开启                  |
+|       Disable        |                 Enable                 |
 | :------------------: | :------------------------------------: |
 |      Fast Boot       |           Above 4G decoding            |
 |     Secure Boot      |            Hyper-Threading             |
