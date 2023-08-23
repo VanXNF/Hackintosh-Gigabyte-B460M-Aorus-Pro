@@ -4,7 +4,7 @@ README 中文（当前）
 
 [README English](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/blob/master/README_EN.md)
 
-> - 2023年4月4日更新：升级 OC 版本至 0.9.1，kext 常规更新，更新 README 说明。
+> - 2023年8月23日更新：升级 OC 版本至 0.9.4，kext 常规更新。
 
 ## 使用说明
 
@@ -120,16 +120,18 @@ sudo pmset tcpkeepalive 0
 
 ## 引导及系统版本
 
-|   项目   |         版本          |
-| :------: | :-------------------: |
-| OpenCore |         0.9.1         |
-|  macOS   | Ventura 13.3 (22E252) |
+|   项目   |              版本               |
+| :------: | :-----------------------------: |
+| OpenCore |              0.9.4              |
+|  macOS   | Ventura 13.4.1 (c) (22F770820d) |
 
 ## 效果查看
 
 ![](https://github.com/VanXNF/Hackintosh-Gigabyte-B460M-Aorus-Pro/raw/master/Images/Desktop.png)
 
 ## 更新日志
+
+- 2023年8月23日更新：升级 OC 版本至 0.9.4，kext 常规更新。
 
 - 2023年4月4日更新：升级 OC 版本至 0.9.1，kext 常规更新，更新 README 说明。
 

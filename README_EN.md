@@ -4,7 +4,7 @@
 
 README English(Current)
 
-> 2023/4/4 update: OC 0.9.1 and all kexts. Update README.
+> 2023/8/23 update: OC 0.9.4 and all kexts.
 
 ## README Before Install
 
@@ -118,10 +118,10 @@ sudo pmset tcpkeepalive 0
 
 ## OpenCore/OS
 
-|   Item   |        Version        |
-| :------: | :-------------------: |
-| OpenCore |         0.9.1         |
-|  macOS   | Ventura 13.3 (22E252) |
+|   Item   |             Version             |
+| :------: | :-----------------------------: |
+| OpenCore |              0.9.4              |
+|  macOS   | Ventura 13.4.1 (c) (22F770820d) |
 
 ## Preview
 
@@ -129,6 +129,7 @@ sudo pmset tcpkeepalive 0
 
 ### Update Log
 
+- 2023/8/23 update: OC 0.9.4 and all kexts.
 - 2023/4/4 update: OC 0.9.1 and all kexts. Update README.
 - 2023/3/5 update: OC 0.8.9 and all kexts. Remove RX 460, add RX 6600XT.
 
